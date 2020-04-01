@@ -53,13 +53,6 @@ div, h2, h3, p {
   margin: 1em;
 }
 
-.countryDisplay {
-  text-align: center;
-}
-.countryDisplay a {
-  margin-bottom: 1em;
-}
-
 
 @keyframes App-logo-spin {
   from {

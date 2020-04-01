@@ -52,7 +52,7 @@ export default class App extends Component {
     return (
       <div className="container">
         <h1>Covid 19 infos</h1>
-        <p>{new Date(this.state.lastdate).toDateString()}</p>
+        <p>{new Date(this.state.lastdate)}</p>
         <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path="/test">

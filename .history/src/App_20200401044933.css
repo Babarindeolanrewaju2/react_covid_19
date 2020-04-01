@@ -39,27 +39,6 @@ div, h2, h3, p {
   flex-wrap: wrap;
 }
 
-.countryList {
-  text-align: center;
-}
-.countryList select {
-  max-width: 90vw;
-  font-size: 1.1rem;
-}
-.countryList option {
-  word-wrap: break-word;
-}
-.countryList a {
-  margin: 1em;
-}
-
-.countryDisplay {
-  text-align: center;
-}
-.countryDisplay a {
-  margin-bottom: 1em;
-}
-
 
 @keyframes App-logo-spin {
   from {

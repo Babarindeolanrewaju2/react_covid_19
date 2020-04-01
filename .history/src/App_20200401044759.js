@@ -43,7 +43,6 @@ export default class App extends Component {
       confirmed: Worldwide.data.confirmed.value,
       recovered: Worldwide.data.recovered.value,
       deaths: Worldwide.data.deaths.value,
-      lastdate: Worldwide.data.lastUpdate,
       countries: countries
     });
   }
@@ -52,7 +51,6 @@ export default class App extends Component {
     return (
       <div className="container">
         <h1>Covid 19 infos</h1>
-        <p>{new Date(this.state.lastdate).toDateString()}</p>
         <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path="/test">
